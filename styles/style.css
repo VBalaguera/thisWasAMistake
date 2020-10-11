@@ -5,9 +5,11 @@
 }
 
 body {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Playfair Display', serif;
   background-color: black; 
   color: white; 
+  background: url("https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg");
+  background-size: cover; 
 }
 a {
   text-decoration: none;

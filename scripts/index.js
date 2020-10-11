@@ -24,7 +24,6 @@ window.addEventListener("load", () => {
   });
 
   const createBubble = index => {
-    //Create bubbles
     const bubble = document.createElement("div");
     background.appendChild(bubble);
     bubble.style.backgroundColor = colors[index];
