@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Syne', sans-serif;
+  background-color: black; 
+  color: white; 
+}
+a {
+  text-decoration: none;
+  color: white; 
+}
+img {
+  width: 50%;
+  height: 50%; 
+}
+
+.crap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-title {
+  margin: 50px 0px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900; 
+  
+}
+.main-title-subtitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.sorry {
+  margin: 10px auto; 
+}
+
+.farts {
+  background: none;
+  width: 100%;
+  display: flex;
+
+}
+.farts > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+.farts div {
+  display: flex; 
+  align-items: flex-end; 
+  justify-content: center;
+}
+.farts a {
+  opacity: 0; 
+  transition: all 0.3s; 
+  padding: 10px; 
+  font-size: 1rem; 
+}
+.farts div:hover {
+  cursor: pointer; 
+}
+.fart1 {
+  background: #60d394;
+}
+.fart1:hover a{
+  opacity: 1; 
+}
+.fart2 {
+  background: #d36060;
+}
+.fart2:hover a{
+  opacity: 1; 
+}
+.fart3 {
+  background: #c060d3;
+}
+.fart3:hover a{
+  opacity: 1; 
+}
+.fart4 {
+  background: #d3d160;
+}
+.fart4:hover a{
+  opacity: 1; 
+}
+.fart5 {
+  background: #606bd3;
+}
+.fart5:hover a{
+  opacity: 1; 
+}
+.fart6 {
+  background: #60c2d3;
+}
+.fart6:hover a{
+  opacity: 1; 
+}
+.fart7 {
+  background: #8b4f55; 
+}
+.fart7:hover a{
+  opacity: 1; 
+}
+.fart8 {
+  background: #0e081f; 
+}
+.fart8:hover a{
+  opacity: 1; 
+}
+.fart9 {
+  background: #9e7f03; 
+}
+.fart9:hover a{
+  opacity: 1; 
+}
+.fart10 {
+  background: #11958C; 
+}
+.fart10:hover a{
+  opacity: 1; 
+}
+
+
+
+.background > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 5%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 0%;
+    left: 95%;
+  }
+}
+
