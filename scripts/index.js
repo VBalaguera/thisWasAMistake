@@ -19,16 +19,16 @@ window.addEventListener("load", () => {
     fart.addEventListener("click", function() {
       screams[index].currentTime = 0;
       screams[index].play();
-      createBubble(index);
+      createBall(index);
     });
   });
 
-  const createBubble = index => {
-    const bubble = document.createElement("div");
-    background.appendChild(bubble);
-    bubble.style.backgroundColor = colors[index];
-    bubble.style.animation = `jump 1s ease`;
-    bubble.addEventListener("animationend", function() {
+  const createBall = index => {
+    const ball = document.createElement("div");
+    background.appendChild(ball);
+    ball.style.backgroundColor = colors[index];
+    ball.style.animation = `jump 1s ease`;
+    ball.addEventListener("animationend", function() {
       background.removeChild(this);
     });
   };
