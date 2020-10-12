@@ -173,6 +173,12 @@ img {
     font-size: 0.7rem; 
   }
 
+  .background > div {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
+
   @keyframes jump {
     0% {
       bottom: 0%;
