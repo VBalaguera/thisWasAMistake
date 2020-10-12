@@ -58,7 +58,7 @@ img {
 }
 .farts > div {
   height: 100px;
-  width: 100px;
+  min-width: 10px;
   flex: 1;
 }
 .farts div {
@@ -164,3 +164,6 @@ img {
   }
 }
 
+@media screen and (max-width: 600px) {
+  
+}
