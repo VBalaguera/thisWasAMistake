@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: black; 
   color: white; 
   background: url("https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg");
